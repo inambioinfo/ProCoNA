@@ -1,0 +1,14 @@
+Package: ProCoNA
+Type: Package
+Title: Protein co-expression network analysis (ProCoNA).
+Version: 0.99.1
+Date: 2013-04-28
+Author: David L Gibbs
+Maintainer: David L Gibbs <gibbsd@ohsu.edu>
+Description: Protein co-expression network construction using peptide level data, with statisical analysis. (Journal of Clinical Bioinformatics 2013, 3:11 doi:10.1186/2043-9113-3-11)
+License: GPL (>= 2)
+LazyLoad: yes
+Depends: R (>= 2.10), methods, WGCNA, MSnbase
+Imports: BiocGenerics, GOstats
+Suggests: RUnit
+biocViews: Bioinformatics, GraphsAndNetworks, Software, Proteomics
