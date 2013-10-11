@@ -2,7 +2,7 @@
 proconaVersionFun <- function
 ### Keep track of the version of procona used to build networks.
 () {
-  return("0.99.1")
+  return("0.99.2")
 }
 
 ### This function returns a peptide co-expression network object.

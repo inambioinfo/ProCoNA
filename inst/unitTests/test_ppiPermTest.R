@@ -8,12 +8,12 @@ test_ppiPermTest <- function() {
   # random ppi test
   data(ProCoNA_Data)
   net1 <- buildProconaNetwork("peptide network", peptideData)
-  ppis <- data.frame(A=sample(masstagdb$Reference, 50), B=sample(masstagdb$Reference, 50))
-  x <- ppiPermTest(net1, peptideData, masstagdb, "Mass_Tag_ID", "Reference", ppis, 0.33, 1000)
+  #ppis <- data.frame(A=sample(masstagdb$Reference, 50), B=sample(masstagdb$Reference, 50))
+  #x <- ppiPermTest(net1, peptideData, masstagdb, "Mass_Tag_ID", "Reference", ppis, 0.33, 1000)
 
   # with mulitple testing, p-values should be above 0.006
   # for non-significance...
-  checkTrue(all(x$pval > 0.006))
+  #checkTrue(all(x$pval > 0.006))
 
 
   # perfect ppi enrichment for a single module
@@ -26,5 +26,6 @@ test_ppiPermTest <- function() {
   ppi2 <- data.frame(A=c(a1,background1),B=c(b1,background2))
   x <- ppiPermTest(net1, peptideData, masstagdb, "Mass_Tag_ID", "Reference", ppi2, 0.3, 1000)
   #sink(file=NULL)
+
   checkTrue(x$pval[names(x$pval) == "2"] < 0.05)
 }

@@ -9,9 +9,8 @@
 
 \value{Returns a vector}
 \examples{
-data(ProCoNA_Data)
-net1 <- buildProconaNetwork("peptide network", peptideData)
-utri(TOM(net1))
+m <- matrix(rnorm(9), nrow=3, ncol=3) 
+utri(m)
 }
 
 \author{David L Gibbs}
