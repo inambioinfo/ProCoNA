@@ -1,7 +1,7 @@
 Package: ProCoNA
 Type: Package
 Title: Protein co-expression network analysis (ProCoNA).
-Version: 1.3.0
+Version: 1.4.0
 Date: 2013-04-28
 Author: David L Gibbs
 Maintainer: David L Gibbs <gibbsd@ohsu.edu>
