@@ -1,6 +1,12 @@
 ProCoNA News
 
+CHANGES IN ProCoNA 1.4.1
+========================
+
+o importing libraries in the namespace
+
 CHANGES IN ProCoNA 0.99.2
+========================
 
 o removed a random component in the unit tests that could cause failure.
 
