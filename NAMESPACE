@@ -4,7 +4,7 @@ import(BiocGenerics)
 importFrom(GOstats, hyperGTest)
 import(WGCNA)
 import(flashClust)
-import(MSbase)
+import(MSnbase)
 
 exportClasses(proconaNet)
 
