@@ -1,0 +1,11 @@
+
+TODOs
+
+1.  Do PPI tests *have* to be refseq ids?
+
+2.  Peptide Connectivity test output -- label the list.
+    Actuall all the results that come back as a list should be
+    labelled.
+
+
+
