@@ -1,0 +1,24 @@
+ProCoNA News
+
+CHANGES IN ProCoNA 1.4.1
+========================
+
+o importing libraries in the namespace
+
+CHANGES IN ProCoNA 0.99.2
+========================
+
+o removed a random component in the unit tests that could cause failure.
+
+CHANGES IN ProCoNA 0.99.1 
+=========================
+
+o Major update ... moved to S4 methods (getters, setters, setMethods, etc).
+
+o Smaller sample data set for quick example runs in the man pages.
+
+o Integration with the MSnbase package.
+      See the vignette for an example of raw data processing in preparation for network building.
+      The main buildProconaNetwork function now takes either matrices of peptide data, or MSnSet objects
+      containing data.
+o Man pages relating to the main proconaNet object have been combined.
